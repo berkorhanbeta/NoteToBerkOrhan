@@ -97,9 +97,11 @@ class NoteAdapter(
 
         init {
 
+              // Lock the notes
             if (lockNotes){
                 view.isClickable = false
             } else {
+                    // Unlock the notes
                 view.isClickable = true
                 view.setOnClickListener(this)
             }
