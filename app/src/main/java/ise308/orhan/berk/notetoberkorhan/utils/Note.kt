@@ -36,7 +36,7 @@ class Note {
 
     /*
 
-        Oluşturulması gereken yapı ;
+        We need to create this JSON structer ;
                 [
                     {
                         "title" : "başlık",
