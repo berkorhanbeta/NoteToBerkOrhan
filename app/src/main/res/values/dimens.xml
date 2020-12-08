@@ -1,0 +1,73 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- List Notes -->
+    <dimen name="noteStatus">12sp</dimen>
+    <dimen name="noteTitle">24sp</dimen>
+    <dimen name="noteDescription">14sp</dimen>
+
+    <dimen name="cardCorner">10dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardPadding">5dp</dimen>
+
+    <dimen name="ayrac">2dp</dimen>
+    <dimen name="itemLayoutMargin">5dp</dimen>
+    <dimen name="settings">19sp</dimen>
+    <dimen name="settingsStroke">10dp</dimen>
+
+    <!-- Start - Dialog View -->
+
+    <!-- Add New Note -->
+    <dimen name="newNoteContentLayout">10dp</dimen>
+    <dimen name="buttonDimens">10dp</dimen>
+    <dimen name="buttonSplit">70dp</dimen>
+
+    <dimen name="titleTop">25dp</dimen>
+    <dimen name="descTop">15dp</dimen>
+
+    <dimen name="ideaTopCB">30dp</dimen>
+    <dimen name="todoTopCB">15dp</dimen>
+    <dimen name="imporTopCB">15dp</dimen>
+    <dimen name="buttonLayout">30dp</dimen>
+    <dimen name="strokeLayout">10dp</dimen>
+
+    <!-- Show Note -->
+    <dimen name="desc_left">12dp</dimen>
+    <dimen name="show_ayrac">2dp</dimen>
+    <dimen name="titlePadding">5dp</dimen>
+    <dimen name="descPadding">5dp</dimen>
+
+    <dimen name="showOkBottom">25dp</dimen>
+    <dimen name="txtTitleTop">32dp</dimen>
+    <dimen name="txtDescBottom">25dp</dimen>
+    <dimen name="txtDescEnd">12dp</dimen>
+    <dimen name="txtDescTop">118dp</dimen>
+    <dimen name="statusStart">16dp</dimen>
+    <dimen name="statusEnd">16dp</dimen>
+
+    <!-- End - Dialog View -->
+
+
+
+    <!-- Open Note -->
+    <dimen name="onButtons">20dp</dimen>
+    <dimen name="textFieldTop">25dp</dimen>
+    <dimen name="textFieldSide">16dp</dimen>
+    <dimen name="descFieldStroke">15dp</dimen>
+    <dimen name="onTitleSize">20sp</dimen>
+    <dimen name="onDescSize">14sp</dimen>
+    <dimen name="onTitleBottom">10dp</dimen>
+
+
+    <!-- Add Note -->
+    <dimen name="addFieldTop">25dp</dimen>
+    <dimen name="addFieldSide">16dp</dimen>
+    <dimen name="addDescStroke">15dp</dimen>
+    <dimen name="addTitleSize">20sp</dimen>
+    <dimen name="addDescSize">14sp</dimen>
+    <dimen name="checkBoxLayoutBottom">15dp</dimen>
+    <dimen name="addButton">25dp</dimen>
+    <dimen name="addTitleBottom">10dp</dimen>
+
+
+</resources>

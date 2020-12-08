@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/textFieldSide"
+            android:paddingStart="@dimen/textFieldSide"
+            android:paddingTop="@dimen/textFieldTop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/settingsStroke"
+                android:orientation="horizontal"
+                android:padding="@dimen/strokeLayout">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/developer"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/settings"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/berkorhan"
+                    android:textAlignment="viewEnd"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/settings"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/hideCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_stroke"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:padding="@dimen/settingsStroke"
+                android:text="@string/hideEmpty"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

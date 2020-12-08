@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ShowNote"
+    tools:showIn="@layout/activity_show_note">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/textFieldSide"
+            android:paddingStart="@dimen/textFieldSide"
+            android:paddingTop="@dimen/textFieldTop">
+
+            <TextView
+                android:id="@+id/onTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/titleHint"
+                android:textSize="@dimen/onTitleSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/onDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_stroke"
+                android:padding="@dimen/descFieldStroke"
+                android:text="@string/lorem"
+                android:textSize="@dimen/onDescSize" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

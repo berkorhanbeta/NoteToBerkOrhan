@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddNote"
+    tools:showIn="@layout/activity_add_note">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/addFieldSide"
+            android:paddingStart="@dimen/addFieldSide"
+            android:paddingTop="@dimen/addFieldTop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/checkBoxLayoutBottom">
+
+                        <CheckBox
+                            android:id="@+id/checkBox_idea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/idea" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox_todo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/todoText" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox_important"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/importantText" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/addTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/titleHint"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/addTitleBottom"
+                    android:textSize="@dimen/addTitleSize"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_stroke"
+                    android:hint="@string/descriptionHint"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/addDescStroke"
+                    android:textSize="@dimen/addDescSize" />
+
+                <Button
+                    android:id="@+id/addOk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/addButton"
+                    android:background="@drawable/button"
+                    android:text="@string/ok" />
+
+        </LinearLayout>
+
+
+</ScrollView>
